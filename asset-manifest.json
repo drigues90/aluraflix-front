@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/drigues90.github.io/aluraflix-front/static/css/main.43b442d7.chunk.css",
-    "main.js": "/drigues90.github.io/aluraflix-front/static/js/main.2abbb770.chunk.js",
-    "main.js.map": "/drigues90.github.io/aluraflix-front/static/js/main.2abbb770.chunk.js.map",
+    "main.js": "/drigues90.github.io/aluraflix-front/static/js/main.0534207b.chunk.js",
+    "main.js.map": "/drigues90.github.io/aluraflix-front/static/js/main.0534207b.chunk.js.map",
     "runtime-main.js": "/drigues90.github.io/aluraflix-front/static/js/runtime-main.38476d19.js",
     "runtime-main.js.map": "/drigues90.github.io/aluraflix-front/static/js/runtime-main.38476d19.js.map",
     "static/js/2.4b912ece.chunk.js": "/drigues90.github.io/aluraflix-front/static/js/2.4b912ece.chunk.js",
     "static/js/2.4b912ece.chunk.js.map": "/drigues90.github.io/aluraflix-front/static/js/2.4b912ece.chunk.js.map",
     "index.html": "/drigues90.github.io/aluraflix-front/index.html",
-    "precache-manifest.37f10a16dbed172d199bacf66e2ca58d.js": "/drigues90.github.io/aluraflix-front/precache-manifest.37f10a16dbed172d199bacf66e2ca58d.js",
+    "precache-manifest.6bbc005f59795e5d04a6264f7a157e40.js": "/drigues90.github.io/aluraflix-front/precache-manifest.6bbc005f59795e5d04a6264f7a157e40.js",
     "service-worker.js": "/drigues90.github.io/aluraflix-front/service-worker.js",
     "static/css/main.43b442d7.chunk.css.map": "/drigues90.github.io/aluraflix-front/static/css/main.43b442d7.chunk.css.map",
     "static/js/2.4b912ece.chunk.js.LICENSE.txt": "/drigues90.github.io/aluraflix-front/static/js/2.4b912ece.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.38476d19.js",
     "static/js/2.4b912ece.chunk.js",
     "static/css/main.43b442d7.chunk.css",
-    "static/js/main.2abbb770.chunk.js"
+    "static/js/main.0534207b.chunk.js"
   ]
 }
