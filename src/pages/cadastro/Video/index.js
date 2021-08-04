@@ -13,8 +13,9 @@ function CadastroVideo() {
   const categoryTitles = categorias.map(({ titulo }) => titulo);
   const { handleChange, values } = useForm({
     titulo: 'Video padrão',
+    descricao: 'Descrição padrão',
     url: 'https://www.youtube.com/watch?v=jOAU81jdi-c',
-    categoria: 'Front End',
+    categoria: 'Livre',
   });
 
   useEffect(() => {
@@ -39,8 +40,9 @@ function CadastroVideo() {
 
         videosRepository.create({
           titulo: values.titulo,
+          descricao: values.descricao,
           url: values.url,
-          categoriaId: categoriaEscolhida.id,
+          categoriaId: categoriaEscolhida == null ? 1: categoriaEscolhida.id,
         })
           .then(() => {
             console.log('Cadastrou com sucesso!');
@@ -52,6 +54,13 @@ function CadastroVideo() {
           label="Título do Vídeo"
           name="titulo"
           value={values.titulo}
+          onChange={handleChange}
+        />
+
+        <FormField
+          label="Descrição do Vídeo"
+          name="descricao"
+          value={values.descricao}
           onChange={handleChange}
         />
 
