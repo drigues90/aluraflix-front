@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/drigues90.github.io/aluraflix-front/static/css/main.43b442d7.chunk.css",
-    "main.js": "/drigues90.github.io/aluraflix-front/static/js/main.4403e66c.chunk.js",
-    "main.js.map": "/drigues90.github.io/aluraflix-front/static/js/main.4403e66c.chunk.js.map",
-    "runtime-main.js": "/drigues90.github.io/aluraflix-front/static/js/runtime-main.38476d19.js",
-    "runtime-main.js.map": "/drigues90.github.io/aluraflix-front/static/js/runtime-main.38476d19.js.map",
-    "static/js/2.4b912ece.chunk.js": "/drigues90.github.io/aluraflix-front/static/js/2.4b912ece.chunk.js",
-    "static/js/2.4b912ece.chunk.js.map": "/drigues90.github.io/aluraflix-front/static/js/2.4b912ece.chunk.js.map",
-    "index.html": "/drigues90.github.io/aluraflix-front/index.html",
-    "precache-manifest.16c4df047b83fc544ec2d1ac82308031.js": "/drigues90.github.io/aluraflix-front/precache-manifest.16c4df047b83fc544ec2d1ac82308031.js",
-    "service-worker.js": "/drigues90.github.io/aluraflix-front/service-worker.js",
-    "static/css/main.43b442d7.chunk.css.map": "/drigues90.github.io/aluraflix-front/static/css/main.43b442d7.chunk.css.map",
-    "static/js/2.4b912ece.chunk.js.LICENSE.txt": "/drigues90.github.io/aluraflix-front/static/js/2.4b912ece.chunk.js.LICENSE.txt",
-    "static/media/Logo.png": "/drigues90.github.io/aluraflix-front/static/media/Logo.b1f5d75a.png"
+    "main.css": "./static/css/main.43b442d7.chunk.css",
+    "main.js": "./static/js/main.4403e66c.chunk.js",
+    "main.js.map": "./static/js/main.4403e66c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.9c0f6dfd.js",
+    "runtime-main.js.map": "./static/js/runtime-main.9c0f6dfd.js.map",
+    "static/js/2.c24a4efa.chunk.js": "./static/js/2.c24a4efa.chunk.js",
+    "static/js/2.c24a4efa.chunk.js.map": "./static/js/2.c24a4efa.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.7e2f3442893ea38c1dab5e67ffa3d562.js": "./precache-manifest.7e2f3442893ea38c1dab5e67ffa3d562.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.43b442d7.chunk.css.map": "./static/css/main.43b442d7.chunk.css.map",
+    "static/js/2.c24a4efa.chunk.js.LICENSE.txt": "./static/js/2.c24a4efa.chunk.js.LICENSE.txt",
+    "static/media/Logo.png": "./static/media/Logo.b1f5d75a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.38476d19.js",
-    "static/js/2.4b912ece.chunk.js",
+    "static/js/runtime-main.9c0f6dfd.js",
+    "static/js/2.c24a4efa.chunk.js",
     "static/css/main.43b442d7.chunk.css",
     "static/js/main.4403e66c.chunk.js"
   ]
