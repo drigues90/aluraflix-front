@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/drigues90.github.io/aluraflix-front/precache-manifest.6bbc005f59795e5d04a6264f7a157e40.js"
+  "/drigues90.github.io/aluraflix-front/precache-manifest.16c4df047b83fc544ec2d1ac82308031.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f396d9a0e697e0285c296707bb7145ff",
+    "revision": "aaa40a96ae201264b2836559d0c29e6e",
     "url": "/drigues90.github.io/aluraflix-front/index.html"
   },
   {
-    "revision": "4072f0ea2dcd1aa63323",
+    "revision": "da650f1f79adc121b1f9",
     "url": "/drigues90.github.io/aluraflix-front/static/css/main.43b442d7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/drigues90.github.io/aluraflix-front/static/js/2.4b912ece.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4072f0ea2dcd1aa63323",
-    "url": "/drigues90.github.io/aluraflix-front/static/js/main.0534207b.chunk.js"
+    "revision": "da650f1f79adc121b1f9",
+    "url": "/drigues90.github.io/aluraflix-front/static/js/main.4403e66c.chunk.js"
   },
   {
     "revision": "fdbfc1a174811a735184",
