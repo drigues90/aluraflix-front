@@ -11,7 +11,7 @@ import CadastroCategoria from './pages/cadastro/Categoria';
 const Pagina404 = () => (<div>Página 404</div>)
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={window.location.pathname || ''}>
     <Switch>
       <Route path="/" component={Home} exact />
       <Route path="/cadastro/video" component={CadastroVideo} />
