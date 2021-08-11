@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {useHistory } from 'react-router-dom';
 import PageDefault from '../../components/PageDefault';
 import useForm from '../../hooks/useForm';
@@ -6,9 +6,10 @@ import FormField from '../../components/FormField';
 import Button from '../../components/Button';
 import LoginRepository from '../../repositories/login';
 import { string } from 'prop-types';
+import './index.css';
 
 function Login() {
-  const state = {error: ''}
+  const [state, setState] = useState([]);
     const valoresIniciais = {
       email: '',
       senha: '',
@@ -22,6 +23,7 @@ function Login() {
       {state.error && <h3>{state.error}</h3>}
          <form onSubmit={(event) => {
            event.preventDefault();
+           setState({error: ''})
            // alert('Video Cadastrado com sucesso!!!1!');
               LoginRepository.create({
                 usuario: values.usuario,
@@ -32,8 +34,7 @@ function Login() {
                   history.push('/');
                 })
                 .catch((err) => {
-                  state.error = err;
-                  console.error(state.error);
+                  setState({error: 'usuario ou senha invalidos'})
                 });
          }}
          >
@@ -42,6 +43,7 @@ function Login() {
         <FormField
           label="Usuario"
           name="usuario"
+          required="true"
           value={values.usuario}
           onChange={handleChange}
         />
