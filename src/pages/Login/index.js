@@ -20,7 +20,7 @@ function Login() {
   return (
       <PageDefault>
       <h1>Login</h1>
-      {state.error && <h3>{state.error}</h3>}
+      {state.error && <h3 className="msg-error">{state.error}</h3>}
          <form onSubmit={(event) => {
            event.preventDefault();
            setState({error: ''})
