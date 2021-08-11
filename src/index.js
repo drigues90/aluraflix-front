@@ -6,6 +6,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
+import Login from './pages/Login';
 
 // Desafio master blaster na descrição
 const Pagina404 = () => (<div>Página 404</div>)
@@ -14,6 +15,7 @@ ReactDOM.render(
   <BrowserRouter basename={window.location.pathname || ''}>
     <Switch>
       <Route path="/" component={Home} exact />
+      <Route path="/login" component={Login} />
       <Route path="/cadastro/video" component={CadastroVideo} />
       <Route path="/cadastro/categoria" component={CadastroCategoria} />
       <Route component={Pagina404} />
