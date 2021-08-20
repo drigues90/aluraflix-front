@@ -5,19 +5,25 @@ import './Menu.css';
 import Button from '../Button';
 // import ButtonLink from './components/ButtonLink';
 
-function Menu() {
+function Menu(props) {
+  const isLoggedIn = props.isLoggedIn;
+  let button;
+  if(isLoggedIn){
+   button = <Button as={Link} className="ButtonLink" to="/cadastro/video">
+      Novo vídeo
+   </Button>
+ }else{
+   button = <Button as={Link} className="ButtonLink" to="/login">
+     Login
+   </Button>
+ }
+
   return (
     <nav className="Menu">
       <Link to="/">
         <img className="Logo" src={Logo} alt="AluraFlix logo" />
       </Link>
-
-     {/* <Button as={Link} className="ButtonLink" to="/cadastro/video">
-        Novo vídeo
-  </Button> */}
-      <Button as={Link} className="ButtonLink" to="/login">
-        Login
-      </Button>
+      {button}
     </nav>
   );
 }

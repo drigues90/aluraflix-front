@@ -4,6 +4,9 @@ import styled, { css } from 'styled-components';
 import Menu from '../Menu';
 import Footer from '../Footer';
 
+import { isAuthenticated } from "../../services/auth";
+
+
 const Main = styled.main`
   background-color: var(--black);
   color: var(--white);
@@ -20,7 +23,7 @@ const Main = styled.main`
 function PageDefault({ children, paddingAll }) {
   return (
     <>
-      <Menu />
+      <Menu isLoggedIn={isAuthenticated()}/>
         <Main paddingAll={paddingAll}>
           {children}
         </Main>

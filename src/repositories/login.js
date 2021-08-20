@@ -1,22 +1,14 @@
-import config from '../config';
+import {login} from '../services/auth'
+import api from '../services/api'
 
-const URL_LOGIN = `${config.URL_BACKEND_TOP}/login`;
-
-function create(dadosLogin) {
-  return fetch(`${URL_LOGIN}`, {
-    method: 'POST',
-    headers: {
-      'Content-type': 'application/json',
-    },
-    body: JSON.stringify(dadosLogin),
-  })
-    .then(async (respostaDoServidor) => {
-      if (respostaDoServidor.ok) {
-        const resposta = await respostaDoServidor.json();
-        return resposta;
-      }
+async function create(dadosLogin) {
+  const response = await api.post("/login", dadosLogin)
+  try {
+    login(response.data.token);
+    return response;
+  } catch (error) {
       throw new Error('Não foi possivel entrar no sistema :(');
-    });
+  }
 }
 
 export default {

@@ -11,8 +11,8 @@ import './index.css';
 function Login() {
   const [state, setState] = useState([]);
     const valoresIniciais = {
-      email: '',
-      senha: '',
+      usuario: 'admin@email.com',
+      senha: '123456',
     };
   const history = useHistory();
   const { handleChange, values } = useForm(valoresIniciais);
@@ -34,6 +34,7 @@ function Login() {
                   history.push('/');
                 })
                 .catch((err) => {
+                  console.log(err);
                   setState({error: 'usuario ou senha invalidos'})
                 });
          }}
